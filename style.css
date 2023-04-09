@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+   
+}
+
+nav {
+    height: 65px;
+    background-color:white; /* 2번) 원하는 컬러를 지정해주세요. */
+    line-height: 65px;
+    border-bottom:1px solid #dadada;
+    float: center;
+    
+    
+}
+
+nav::after{
+    content: "";
+    display: rgb(45, 44, 44);
+    clear: both;
+   
+}
+
+
+
+.nav-menu {
+    float: left;
+    
+    
+}
+
+
+.nav-btn {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.nav-btn > li {
+    float: left;
+
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.nav-login {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 550;
+    color:#7a7a7a;
+   
+}
+img{
+   
+    margin: auto;
+    float: left;
+    
+    
+}
+
+/* header 코드 */
+.hd {
+    position: relative;
+    height: 150px;
+    text-align: left;
+    line-height: 35px;
+}
+
+.hd-title {
+    font-size: 23px;
+    margin-top:0;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    
+}
+
+.hd-content {
+    font-size: 14px;
+    text-align:left;
+    font-weight: bolder;
+    color:darkorange;
+    margin-left: 20px;
+  
+}
+
+.hd-contents {
+    
+    margin-bottom:20px ;
+    margin-left: 20px;
+    float:left;
+
+    
+   
+    
+}
+.hd-cur{
+    font-size: 14px;
+    display:inline-block;
+    font-weight: bolder;
+    color:#7a7a7a;
+    margin-left: 20px;
+
+}
+
+.hd-more{
+    font-size: 12px;
+    margin: 0;
+    font-weight: bolder;
+    color:#000000;
+    float:right;
+    
+}
+
+.hd:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hd .container {
+    position: relative;
+    color: black;
+}
+
+
+/* section 코드 */
+
+.sec {
+    
+    text-align: left;;
+    width: 1250px;
+    
+    margin:auto;
+   
+}
+
+.sec article {
+   
+    float: left;
+    
+    margin: 20px;
+   
+}
+
+.sec article:last-child {
+    margin-right: 0;
+}
+
+.sec article img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.card-img {
+    overflow: hidden;
+    width: 312px;
+    height: 430px;
+    float: left;
+   
+
+}
+
+.sec::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ .state1{
+    margin: 20px;
+    color:#1d42d8;
+    border:1px solid #1d42d8;
+    border-radius:5px;
+    padding:3px;
+    
+
+
+ }
+ .state2{
+    margin: 20px;
+    color:#059669;
+    border:1px solid #059669;
+    border-radius:5px;
+    padding:3px;
+
+
+ }
+ .state3{
+    margin: 20px;
+    color:#3F3F46;
+    border:1px solid #3F3F46;
+    border-radius:5px;
+    padding:3px;
+
+
+ }
+ .school-name
+ {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .school-exp
+ {
+    margin: 20px;
+    font-size: 15px;
+    
+ }
+
+ .school-date
+ {
+    margin: 20px;
+    font-size: 15px;
+    color:#A3A3A3;
+ }
+
+
+/* footer */
+.ft {
+    padding: 5px;
+    text-align: left;
+    font-size: 23px;
+    background-color: rgb(231, 235, 247);   /* 9번) 원하는 컬러로 지정해주세요. */
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-image: url("https://d35ai18pny966l.cloudfront.net/course/prenotice/strip_banner_768_prenotice.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.small{
+    font-size: 15px;
+    text-align: left;
+    color: rgb(16, 1, 80);
+    margin-bottom:0;
+}
+.more{
+    font-size: 15px;
+    text-align: left;
+    color: rgb(135, 133, 146);
+    margin:0;
+}
+
